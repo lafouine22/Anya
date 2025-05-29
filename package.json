@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By Jxte_me",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --ANYA-MD ",
+    "start": "pm2 start index.js --deep-monitoring --attach --name ANYA-MD ",
     "stop": "pm2 stop ANYA-MD",
     "restart": "pm2 restart ANYA-MD"
   },
