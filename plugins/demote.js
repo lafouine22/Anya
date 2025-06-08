@@ -32,7 +32,7 @@ async(conn, mek, m, {
     // Prevent demoting the bot itself
     if (number === botNumber) return reply("❌ The bot cannot demote itself.");
 
-    const jid = number + "22893635053@s.whatsapp.net";
+    const jid = number + "@s.whatsapp.net";
 
     try {
         await conn.groupParticipantsUpdate(from, [jid], "demote");
